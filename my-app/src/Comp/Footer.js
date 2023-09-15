@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-4 text-center">
-            <i className="fa-solid fa-house"><br />Home</i>
+            <i className="fa-solid fa-house fa-bounce"><br />Home</i>
               {/* <p>Home</p> */}
             </div>
             <div className="col-4  text-center ">
@@ -16,7 +16,7 @@ const Footer = () => {
               {/* <p>Search</p> */}
             </div>
             <div className="col-4  text-center">
-            <i className="fa-regular fa-address-book"><br />My</i>
+            <i className="fa-regular fa-address-book fa-bounce"><br />My</i>
               {/* <p>My</p> */}
               
             </div>
