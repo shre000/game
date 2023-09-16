@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div>
-      <div className="conatiner-fluid fixed-bottom bg-light pt-2">
+
+      <div className="container-fluid fixed-bottom bg-light pt-2"> <hr />
         <div className="container">
           <div className="row">
             <div className="col-4 text-center">
@@ -17,7 +18,7 @@ const Footer = () => {
               {/* <p>Search</p> */}
             </div>
             <div className="col-4  text-center">
-              <i className="fa-regular fa-address-book fa-bounce"><br />My</i>
+             <Link to={'/login'}> <i className="fa-regular fa-address-book fa-bounce"><br />My</i></Link>
               {/* <p>My</p> */}
 
             </div>
