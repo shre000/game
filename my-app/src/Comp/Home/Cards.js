@@ -1,9 +1,9 @@
 import React from 'react'
-import g1 from '../images/g1.jpg'
-import g2 from '../images/g2.jpg'
-import g3 from '../images/g3.jpg'
-import g4 from '../images/g4.avif'
-import '../Comp-style/cards.css'
+import g1 from '../../images/g1.jpg'
+import g2 from '../../images/g2.jpg'
+import g3 from '../../images/g3.jpg'
+import g4 from '../../images/g4.avif'
+import '../../Comp-style/cards.css'
 
 const Cards = () => {
     return (

@@ -1,10 +1,11 @@
 
+import { Routes , Route } from 'react-router-dom';
 import './App.css';
 // import Section1 from './Comp/Section1';
-import Topbar from './Comp/Topbar';
-import Corousal from './Comp/Corousel';
-import Cards from './Comp/Cards';
-import Footer from './Comp/Footer';
+import Home from './Comp/Home/Home';
+import Search from './Comp/Search/Search';
+
+
 
 
 
@@ -12,33 +13,16 @@ function App () {
   return (
     
     <>
-    <Topbar />
-    <Corousal />
-    <Cards />
-    <Footer />
+    <Routes>
+      <Route path= '' element ={<Home/>}></Route>
+      <Route path= 'search' element ={<Search/>}></Route>
+    </Routes>
 
-
-
-
-
-
-
-
-
-
-
-
-    {/* <Section1 />
-    <MyName /> */}
     </>
    
     
   );
 }
 
-// creating a nested Component........................ 
-// const MyName =()=>{
-//   return <p>Welcome to Nested component</p>
-// }
 
 export default App;

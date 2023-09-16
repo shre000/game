@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Comp-style/topbar.css';
+import '../../Comp-style/topbar.css';
 
 const Topbar = () => {
   return (

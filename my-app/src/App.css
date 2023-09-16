@@ -3,3 +3,10 @@
   height: fit-content;
   
 }
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
